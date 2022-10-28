@@ -3,68 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="image/icon.svg">
     <meta name="author" content="Samet Hodaman">
     <meta name="description" content="What Samet did in his life and her personal resume.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Who am I ? (NOT COMPLETED)</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img src="image/picture.jpg" alt="Samet Hodaman"></td>
-            <td>
-                <h1>Samet Hodaman</h1>
-                <p><em>Student and a member of <strong><a href="www.entreentrepreneurship.com">Entrepreneurship Society</a></strong></em> </p>
-                <p>I am a web development student. I love music and dance</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Courses and Learning</h3>
-    <ul>
-        <li>The Complete 2022 Web Development Bootcamp</li>
-        <li>Computer Engineering at Izmir Institute of Technology</li>
-    </ul>
-    <h3>Study Experience</h3>
-    <table>
-        <thead>
-            <th>Dates</th>
-            <th>Study</th>
-        </thead>
-        <tbody>
-            <td>2016 - 2020</td>
-            <td>Toki Republic Anatolian High School</td>
-        </tbody>
-        <tr>
-            <td>2008 - 2016</td>
-            <td>Gumusyaka Primary and Secondary School</td>
-        </tr>
-    </table>
-    <h3>Skills</h3>
+    <div class="container">
+        <p>Personal blog</p>    
+        <div>
+            <h1><p id="first-name">I'm Samet </p> Hodaman</h1>
+            <p id="sub-name">a programmer.</p>
+        
+        </div>
+    </div>
 
-    <table>
-        <tr>
-            <td>
-                <table>
+    <div class="section">
+        <img src="image/picture.jpg" alt="Samet Hodaman" class="samet-picture">
+        <h2>Hello.</h2>
+        <br>
+        <p class="p-text"><em>I'm a front-end web developer and member of <strong><a href="www.entreentrepreneurship.com">Entrepreneurship Society</a>.</strong></em> </p>
+        <br><p class="p-text"><em>I love music and dance.</em></p>
+        <br>
+        <br>
+        <div class="sep">....</div>
+    </div>
+    <div class="skills">
+        <div class="skill-row">
+            <img src="image/tagimg.Default" alt="Picture" class="sec-picture">
+            <h3>Courses and Learning</h3>
+            <ul>
+                <li>Learning HTML / CSS / JavaScript / Python as software languages</li>
+                <li>Learning The Complete 2022 Web Development Bootcamp</li>
+                <li>Studying Computer Engineering at Izmir Institute of Technology</li>
+            </ul>
+        </div>
+
+
+        <div class="skill-row">
+            <img src="image/book.gif" class="sec-picture" style="float: right; margin-right: 150px;">
+            <div class="txt">
+                <h3 style="padding-left: 0px;">Study Experience</h3>
+                <table style="border-spacing:5px; line-height: 1.6;">
+                    <thead>
+                        <th>Dates</th>
+                        <th>Study</th>
+                    </thead>
                     <tr>
-                        <td>IOS DEVELOPMENT</td>
-                        <td>7/10</td>
+                        <td>2021 - ~ ~<p style="float: right;">:</p></td>
+                        <td>Izmir Institute of Technology <span style="font-weight: bold;"> (still continue)</span></td>
                     </tr>
                     <tr>
-                        <td>WEB DEVELOPMENT</td>
-                        <td>5/10</td>
+                        <td>2016 - 2020  :</td>
+                        <td>Toki Republic Anatolian High School</td>
                     </tr>
                     <tr>
-                        <td>PHOTOGRAPHY</td>
-                        <td>3/10</td>
+                        <td>2008 - 2016  :</td>
+                        <td>Gumusyaka Primary and Secondary School</td>
                     </tr>
                 </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <a href="contact.html">Contact me</a>
+            </div>
+        </div>
+        <div class="skill-row">
+            <img src="image/music.webp" alt="Picture" class="sec-picture" id="music-picture">
+            <h3>Hobbies</h3>
+            <p style="font-size: 18px; padding-right: 30px;">I love classical and rap music. I've been playing the violin about 5 years. I am also interested in social dances. Even if I'm not good, I enjoy dancing. Additionally, I must like to travel. Because I am mostly happy when I travel interesting places that I've never seen before.</p>
+        </div>
+            
+    </div>
+    
+    <div class="sep">....</div>
+
+    <div class="section">
+        <h3 class="skill-row" style="margin-bottom: 50px;">Skills</h3>
+            <table style="padding-left:150px;">
+                <tr>
+                    <td>WEB DEVELOPMENT</td>
+                    <td>: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></td>
+                </tr>
+                <tr>
+                    <td>PYHTON</td>
+                    <td>: <i class="fa-solid fa-star"><i class="fa-solid fa-star"><i class="fa-regular fa-star"><i class="fa-regular fa-star"><i class="fa-regular fa-star"></i></td>
+                </tr>
+                <tr>
+                    <td>JAVA</td>
+                    <td>: <i class="fa-regular fa-star"><i class="fa-regular fa-star"><i class="fa-regular fa-star"><i class="fa-regular fa-star"><i class="fa-regular fa-star"></i></td>
+                </tr>
+            </table>
+    </div>
+    <div class="sep">....</div>
+
+    <div class="section skill-row">
+        <div class="get-in-touch">GET IN TOUCH</div>
+            <div>
+                <p class="p-text">If you want to learn more with me or ask something, get contact with me.</p>
+            </div>
+        <button class="buton" onclick="window.location.href='contact.html';">Contact Me</button>
+        <a href="contact.html"></a>
+    </div>
+    <footer>
+    <div>
+        <a href="#" class="social-sites"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="https://www.instagram.com/samethodaman/" class="social-sites"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="#" class="social-sites"><i class="fa-solid fa-earth-americas"></i> Webside</a>
+    </div>
+    <div class="author"> @2022 Samet Hodaman <span class="space"></span>© All rights reserved</div>
+</footer>
 
 </body>
 </html>
